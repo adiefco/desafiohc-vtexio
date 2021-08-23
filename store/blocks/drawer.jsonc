@@ -1,0 +1,28 @@
+{
+  "drawer": {
+    // "children": [
+    //   "menu#drawer"
+    // ],
+    "blocks": ["drawer-trigger"]
+  },
+  "drawer-trigger": {
+    "children": ["image#open-wishlist"]
+  },
+  "image#open-wishlist": {
+    "props": {
+      "title": "wishlist-opener",
+      "src": "https://hiringcoders2021.vteximg.com.br/arquivos/heart.png",
+      "width": "100"
+    }
+  }
+  // "menu#drawer": {
+  //   "children": [
+  //     "menu-item#category-clothing",
+  //     "menu-item#category-decoration",
+  //     "menu-item#custom-sale"
+  //   ],
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // }
+}

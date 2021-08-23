@@ -1,0 +1,8 @@
+{
+  "login-component": {
+    "component": "LoginForm"
+  },
+  "support-component": {
+    "component": "SupportContact"
+  }
+}

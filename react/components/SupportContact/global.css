@@ -1,0 +1,21 @@
+.support-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.support-contact a {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.support-contact p {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.875rem;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 1.75;
+  text-transform: uppercase;
+}

@@ -1,0 +1,84 @@
+.listContainer {
+  justify-content: space-between;
+  flex-flow: nowrap;
+  background-color: #212121;
+}
+
+.listItemChildren {
+  color: rgba(89, 255, 255, 0) !important;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 6px 12px;
+  overflow: hidden;
+  position: relative;
+  font-size: 0.875rem;
+  max-width: 264px;
+  min-width: 72px;
+  box-sizing: border-box;
+  min-height: 48px;
+  text-align: center;
+  flex-shrink: 0;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 1.75;
+  white-space: normal;
+  text-transform: uppercase;
+}
+.listItemChildrenActive {
+  color: rgba(89, 255, 255, 0);
+  border-bottom: 2px solid rgba(89, 255, 255, 0);
+  outline-color: rgb(89, 255, 0);
+}
+.listItem :global(.vtex-button) {
+  background-color: #212121;
+  border: none;
+}
+.listItem :global(.vtex-button__label) {
+  padding: 6px 12px;
+  overflow: hidden;
+  position: relative;
+  font-size: 0.875rem;
+  max-width: 264px;
+  min-width: 72px;
+  box-sizing: border-box;
+  min-height: 48px;
+  text-align: center;
+  flex-shrink: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  white-space: normal;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 1.75;
+  color: #fff;
+}
+.listItemActive :global(.vtex-button) {
+  border-bottom: 2px solid rgb(89, 255, 0);
+  color: rgb(89, 255, 0);
+  border-radius: 0;
+}
+.listItemActive :global(.vtex-button__label) {
+  padding: 6px 12px;
+  overflow: hidden;
+  position: relative;
+  font-size: 0.875rem;
+  max-width: 264px;
+  min-width: 72px;
+  box-sizing: border-box;
+  min-height: 48px;
+  text-align: center;
+  flex-shrink: 0;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 1.75;
+  white-space: normal;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  color: rgb(89, 255, 0);
+}
+.container--home {
+  background-color: #303030;
+}

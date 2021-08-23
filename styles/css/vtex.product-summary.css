@@ -1,0 +1,17 @@
+.brandName {
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.sellingPrice {
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #59ff00;
+}
+.clearLink {
+  background-color: #424242;
+}

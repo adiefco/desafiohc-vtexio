@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#shelf-home1": {
+    "children": [
+      // "flex-layout.col#shelf-title",
+      // "flex-layout.row#shelf-banners-top"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "shelf-custom-grocery"
+    }
+  }
+}

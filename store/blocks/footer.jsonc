@@ -1,0 +1,71 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer"]
+  },
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer"]
+  },
+  "flex-layout.row#footer": {
+    "children": [
+      "flex-layout.col#login",
+      "flex-layout.col#challenges",
+      "flex-layout.col#store",
+      "flex-layout.col#help"
+    ],
+    "props": {
+      "blockClass": "footer"
+    }
+  },
+  "flex-layout.col#login": {
+    "children": ["login-component"]
+  },
+  "flex-layout.col#challenges": {
+    "children": ["image#trophy", "rich-text#chalenges"],
+    "props":{
+      "blockClass": "challenges"
+    }
+  },
+  "image#trophy": {
+    "props": {
+      "title": "Desafios",
+      "src": "https://hiringcoders2021.vteximg.com.br/arquivos/trophy.png",
+      "max-width": 120,
+      "blockClass": "challenges-image",
+      "label": "Desafios"
+    }
+  },
+
+  "rich-text#chalenges": {
+    "props": {
+    "text": "DESAFIOS",
+    "blockClass": "challenges-text"
+    }
+  },
+  "flex-layout.col#store": {
+    "children": ["image#cart", "rich-text#store"],
+    "props": {
+      "blockClass": "store"
+    }
+  },
+  "image#cart": {
+    "props": {
+      "title": "Loja",
+      "src": "https://hiringcoders2021.vteximg.com.br/arquivos/shopping-cart.png",
+      "max-width": 120,
+      "blockClass": "store-image",
+      "label": "Loja"
+    }
+  },
+  "rich-text#store": {
+    "props": {
+      "text": "LOJA",
+      "blockClass": "store-text"
+      }
+  },
+  "flex-layout.col#help": {
+    "children": ["support-component"]
+  }
+}

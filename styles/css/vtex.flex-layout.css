@@ -1,0 +1,39 @@
+.flexRow--main-header-desk {
+  background-color: #212121;
+}
+
+.flexRowContent--main-header-desk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexRow--slider-div {
+  background-color: #303030 !important;
+  padding-bottom: 30px;
+}
+
+.flexRow--footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #424242;
+  position: fixed;
+  width: 100%;
+}
+
+.flexRowContent--footer {
+  margin: 0 100px;
+  align-items: center;
+  position: relative;
+  right: 20%;
+}
+.flexRow--footer :global(.vtex-store-components-3-x-container) {
+  margin-top: 20px;
+}
+.flexCol--challenges,
+.flexCol--store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,31 @@
+.sliderArrows {
+  color: #fff;
+  align-self: flex-end;
+}
+
+.sliderLeftArrow {
+  margin-left: 18%;
+}
+
+.sliderRightArrow {
+  margin-right: 18%;
+}
+
+.paginationDotsContainer--carousel {
+  margin-bottom: 30px;
+}
+.paginationDot {
+  width: 8px;
+  height: 8px;
+  margin: 0 2px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.paginationDot--isActive {
+  background-color: #59ff00;
+}
+
+.sliderLayoutContainer--carousel {
+  background-color: #303030;
+  padding-bottom: 30px;
+}
